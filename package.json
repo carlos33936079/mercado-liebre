@@ -1,0 +1,22 @@
+{
+  "name": "mercado-liebre",
+  "version": "1.0.0",
+  "description": "micro desafios",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlos33936079/mercado-liebre.git"
+  },
+  "author": "Carlos Luna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlos33936079/mercado-liebre/issues"
+  },
+  "homepage": "https://github.com/carlos33936079/mercado-liebre#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
