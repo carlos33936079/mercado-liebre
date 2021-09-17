@@ -4,28 +4,49 @@
     padding: 0;
 }
 
+.logo-ml{
+   width: 25%;
+   margin-top: 20px;
+   margin-left: 20px; 
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
 }
+
 h2{
     font-size: 24px;
 }
+
+
 .precio{
     font-size: 18px;
+    margin-left: 20px;
+    width: 30%;
 }
+
 .descuento{
     font-size: 16px;
+    color: green;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 70%;
 }
+
 .descripcion{
     font-size: 16px;
+    margin-left: 20px;
 }
 
 header{
     background-color:#EAC926;
 }
-
+nav{
+    display: none;
+}
 .burger-menu{
+    display: block;
 font-size: 2em;
 text-align: center;
 color:white;
@@ -35,8 +56,16 @@ width: 40px;
 padding: 10px;
 margin-left:auto;
 margin-right:auto;
-
-}.icono-pie{
+}
+/*
+section{
+    width: 100%;
+}
+.banner-oferta{
+    background-size: 100%;
+}
+*/
+.icono-pie{
 font-size: 2em;
 text-align: center;
 color:blue;
@@ -48,14 +77,108 @@ margin-left:auto;
 margin-right:auto;
 margin-bottom: 10px;
 }
+
 .encabezado-pie{
     font-size: 24px;
     text-align: center;
 }
+
 .contenido-pie{
     font-size: 16px;
     text-align: center;
     margin-bottom: 10px;
 }
 
+main{
+    width: 90%;
+    margin:0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #ebebeb;
+   
+}
 
+.visto{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #ebebeb;
+    
+}
+.oferta{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #ebebeb;
+    
+}
+
+.marco-producto{
+   
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px;
+}
+.numeros-articulo{
+    display: flex;
+
+}
+
+.art-desc{
+    width: 100%;
+    border-top: solid 1px #ebebeb;
+    
+    margin: 0 auto;
+    background-color: white;
+}
+
+.imagen-1{
+    width: 100%;
+    
+    margin: 0 auto;
+}
+.imagen-2{
+    width: 100%;
+}
+
+.fa-truck{
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    color: green;
+    border:solid green 2px;
+    border-radius: 50%;
+    padding: 15px;
+    margin-left: 20px;  
+    display: flex;
+    
+}
+
+@media(min-width: 460px) {
+    .marco-producto{
+        box-shadow: 0px 0px 10px rgb(100,100,100);
+        border-radius: 5px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    main{
+        padding: 25px 17px 25px 17px;
+    }
+    .descripcion{
+        font-size: 12px;
+        color: #666;
+        display: inline-block;
+    }
+    nav{
+        display: block;
+    }
+    .burger-menu{
+        display: none;
+    }
+}
+
+/*https://github.com/DiegoMMF/snippets-C15-estudiantes
+https://github.com/DiegoMMF/snippets-C15-estudiantes/tree/main/module-04-class-14-flexbox
+*/
